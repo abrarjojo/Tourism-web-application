@@ -1,0 +1,222 @@
+/*
+Assignment 3
+Probl  1
+
+SandBoarding
+   Author: Abrar Alsahafi
+   Date: 24 march 2018
+
+   Filename:       	Csstxt.css
+   Supporting files: body.jpg, block.jpg, h1back.jpg, h1title.gif, sstour.htm 
+*/
+
+body{
+font-family: Verdana , Helvetica , sans-serif;
+background-size:60% 30%;
+border: 500px;
+border-color: #ddd;
+text-align: center;
+margin:10px;
+}
+
+.topPage{
+    background-image: url(../images/head.jpg);
+    text-align: center;
+    color: white;
+    height:500px;
+    width: 1200px;
+    background-repeat: repeat-x;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+#bodyPage{
+     text-align: right;
+   margin: 80px;
+    
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header
+{
+    background-image:url(../images/background-link.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 90%;
+    text-shadow:0px 0px 1px #222;
+}
+#header a{
+margin-left: 10px;
+ font-size: 10px;
+
+}
+#row1{
+margin-top:20px;
+font-size:21px;
+letter-spacing:3px;
+color:#2F3440;
+text-shadow:0px 0px 1px #222;
+}
+#column2 {
+  
+   background-color:mintcream;
+    
+}
+
+#column3{
+
+}
+
+h1{
+    text-align:center;
+ 
+     
+}
+
+
+
+h2{
+    
+   color: darksalmon; 
+    
+}
+h3{
+    
+   
+    
+}
+
+p{
+
+}
+
+blockquote{
+  
+}
+
+
+#imagetab{
+   
+}
+
+a{  position:center;
+    text-align: center;
+    color:gray;
+    text-decoration:none;
+   font-size:10px;
+}
+img:hover{
+     color: darkseagreen;
+    
+}
+
+a:hover, a:active {
+   color: black;
+}
+
+hr {
+ border: 0;
+  border-top: #8FBC8F 2px dotted ;
+}
+
+fieldset{
+
+    background-color: aliceblue;
+    margin: 50px;
+}
+/*---------------
+ table style 
+ ----------------*/
+
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #8FBC8F;
+    color: white;
+}
+/*--------------form style--------------------*/
+form li {
+list-style: none;
+margin-bottom: 5px;
+}
+form label{
+ float: right;
+text-align: left;
+margin-right: 5px;
+
+font-size:14px;
+    
+}
+form ul li label{
+float: right;
+clear: right;
+width: 100px;
+text-align: left;
+margin-right: 7px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+
+form ul li input, select, span {
+float: right;
+    margin-top: 10px
+margin-bottom: 10px;
+}
+
+form textarea {
+float: right;
+width: 400px;
+height: 150px;
+}
+
+[type="submit"] {
+clear: left;
+margin: 20px 0 0 230px;
+font-size:18px
+}
+
+/*----------pic style--------------------------------*/
+
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+}
+
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer;
+}
+/*----------logo style--------------------------------*/
+.inc {
+    float: left;
+    
+}
+address{
+  
+    
+    
+}

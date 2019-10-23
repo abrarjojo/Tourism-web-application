@@ -1,0 +1,32 @@
+/*
+Assignment 3
+Probl  1
+
+SandBoarding
+   Author: Abrar Alsahafi
+   Date: 24 march 2018
+
+   Filename:       	Csstxt.css
+   Supporting files: body.jpg, block.jpg, h1back.jpg, h1title.gif, sstour.htm 
+*/
+
+@media print {
+    table {
+    border-width:0  !important;
+}
+    .head th{
+        display: none;
+    }
+th, td {
+    border-width:0 !important;
+    }
+
+.topPage{
+ 
+    display: none;
+}
+    #header
+{
+   display: none;
+}
+}
